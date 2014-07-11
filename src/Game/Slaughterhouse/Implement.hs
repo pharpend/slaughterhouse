@@ -62,3 +62,10 @@ stdStr = "rnbqkbnr\
          \        \
          \PPPPPPPP\
          \RNBQKBNR"
+
+-- |Bughouse board - two 'stdBoard's next to each other.
+bughouse :: Board
+bughouse = stdBoard <|> stdBoard
+
+slaughterhouse :: Board
+slaughterhouse = slaughterBoard <|> kingsBoard
