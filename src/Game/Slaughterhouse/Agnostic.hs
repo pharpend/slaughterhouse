@@ -1,13 +1,13 @@
 -- |
--- Module       : Game.Slaughterhouse
--- Description  : A module for Tropical whatever
+-- Module       : Game.Slaughterhouse.Agnostic
+-- Description  : Implementation-agnostic chess things.
 -- Copyright    : 2014, Peter Harpending.
 -- License      : BSD3
 -- Maintainer   : Peter Harpending <pharpend2@gmail.com>
 -- Stability    : experimental
 -- Portability  : archlinux
 
-module Game.Slaughterhouse where
+module Game.Slaughterhouse.Agnostic where
 
 import Data.Matrix
 import Data.Ord
