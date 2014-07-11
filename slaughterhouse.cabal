@@ -32,3 +32,4 @@ library
   ghc-options:         -Wall
   exposed-modules:
       Game.Slaughterhouse.Agnostic
+    , Game.Slaughterhouse.Implement
